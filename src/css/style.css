@@ -1,0 +1,224 @@
+body {
+    color: #bdc2e7;
+    background: #252F48;
+    font: 600 16px/18px 'Open Sans', sans-serif;
+    margin-bottom: 7%;
+    background-image: url(/images/font.png);
+}
+
+button {
+    font-size: large;
+    font-style: oblique;
+}
+
+p {
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+    line-height: 1.5;
+}
+
+li{
+line-height: 1.5;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid;
+    position: relative;
+    height: 7%;
+    background: #37415d;
+}
+
+header div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header li, footer li {
+    list-style-type: none;
+}
+
+#div_contacts {
+    position: absolute;
+    right: 0;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    font: 14px 'Open Sans', sans-serif;
+    border-top: 1px solid yellow;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    background: #37415d;
+}
+
+footer div {
+    display: inline-block;
+
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.div_gallery_line, #div_short_intro {
+    width: 100%;
+    display: inline-table;
+}
+
+.div_gallery_line div, #div_short_intro div {
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#div_short_intro div {
+    width: 30%;
+}
+
+/*#div_logo{
+position: absolute ;
+    top: 0;
+    right: 0;
+}*/
+#img_logo {
+    height: 60px;
+    width: 45px;
+}
+
+#div_menu {
+    background-color: #37415d;
+    color: aqua;
+    width: 15%;
+    height: 100%;
+}
+
+#div_view {
+    width: 100%;
+}
+
+#ul_menu {
+    list-style: none;
+    padding: 0;
+}
+
+#div_short_intro{
+    margin-top: 50px;
+}
+
+#menu {
+    text-align: center;
+    padding-top: 5px;
+    background: #37415d;
+}
+
+.button_menu {
+    background-color: #37415d;
+    color: aqua;
+    width: 20%;
+    height: 60px;
+    cursor: pointer;
+    font-family: "Trebuchet MS", "Lucida Sans";
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, .1),
+    -2px -2px 5px 0 rgba(0, 0, 0, .1),
+    2px 2px 5px 0 rgba(0, 0, 0, .1),
+    -2px 2px 5px 0 rgba(0, 0, 0, .1);
+    font-size: 25px;
+    letter-spacing: 2px;
+    transition: 0.3s all linear;
+}
+
+.button_menu:hover {
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    background-color: #252F48;
+    color: white;
+}
+
+#ul_menu li {
+    cursor: pointer;
+    font-family: "Trebuchet MS", "Lucida Sans";
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #8bc63e;
+    box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, .1),
+    -2px -2px 5px 0 rgba(0, 0, 0, .1),
+    2px 2px 5px 0 rgba(0, 0, 0, .1),
+    -2px 2px 5px 0 rgba(0, 0, 0, .1);
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s all linear;
+}
+
+#ul_menu li:nth-child(2) {
+    border-color: #fcba30;
+}
+
+#ul_menu li:nth-child(3) {
+    border-color: #f05d22;
+}
+
+#ul_menu li:nth-child(4) {
+    border-color: blueviolet;
+}
+
+#ul_menu li:hover {
+    border-left: 10px solid transparent;
+}
+
+#ul_menu li:nth-child(1):hover {
+    border-right: 10px solid #8bc63e;
+    background-color: darkcyan;
+    color: #8bc63e
+}
+
+#ul_menu li:nth-child(2):hover {
+    border-right: 10px solid #fcba30;
+    background-color: darkcyan;
+    color: #fcba30
+}
+
+#ul_menu li:nth-child(3):hover {
+    border-right: 10px solid #f05d22;
+    background-color: darkcyan;
+    color: #f05d22
+}
+
+#ul_menu li:nth-child(4):hover {
+    border-right: 10px solid blueviolet;
+    background-color: darkcyan;
+    color: blueviolet
+}
+
+.div_gallery_unit img {
+    height: 200px;
+    width: 250px;
+    margin: 5px 5px 5px 5px;
+}
+
+.image_sign {
+    font-style: italic;
+}
+
+#button_head_page{
+    font-size: medium;
+    width: 10%;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    border: none;
+}
+
+
+
