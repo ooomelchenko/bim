@@ -1,9 +1,10 @@
 body {
     color: #bdc2e7;
     background: #252F48;
-    font: 600 16px/18px 'Open Sans', sans-serif;
+    font: 500 16px/18px 'Open Sans', sans-serif;
     margin-bottom: 7%;
     background-image: url(/images/font.png);
+    height: 100%;
 }
 
 button {
@@ -66,7 +67,8 @@ footer ul {
     vertical-align: top;
 }
 
-.div_gallery_line, #div_short_intro {
+.div_gallery_line, #div_services {
+    font: 500 16px/18px 'Open Sans', sans-serif;
     width: 100%;
     display: inline-table;
 }
@@ -76,6 +78,12 @@ footer ul {
     padding: 0;
     margin: 0;
     text-align: center;
+}
+#div_services div{
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
 
 #div_short_intro div {
@@ -109,10 +117,17 @@ position: absolute ;
 }
 
 #div_short_intro{
-    margin-top: 50px;
+    background: #37415d;
+    position: absolute;
+    width: 99%;
+    display: inline-table;
+    font: 200 12px/14px 'Open Sans', sans-serif;
+
+    border-top: 1px solid white;
+    margin-bottom:0;
 }
 
-#menu {
+#div_head_menu {
     text-align: center;
     padding-top: 5px;
     background: #37415d;
@@ -120,7 +135,7 @@ position: absolute ;
 
 .button_menu {
     background-color: #37415d;
-    color: aqua;
+    color: #bfe1f1;
     width: 20%;
     height: 60px;
     cursor: pointer;
@@ -219,6 +234,48 @@ position: absolute ;
     left: 0;
     border: none;
 }
+#div_services_menu{
+    vertical-align: top;
+    text-align: left;
+    left: 0;
+    width: 15%;
+}
+.div_service_description{
+    width: 85%;
+}
+.div_intro_unit img{
+    width: 80px;
+    height: 80px
+}
+#div_services_menu ul {
+    list-style:none;
+}
+#div_services_menu ul li {
+    font-family:Georgia,serif,Times;
+    font-size:18px;
+    padding: 15px;
+}
+#div_services_menu ul li a {
+    display:block;
+    width:200px;
+    height:40px;
+    background-color:#37415d;
+    border-left:5px solid #bfe1f1;
+    border-right:5px solid #bfe1f1;
+    padding-left:10px;
+    text-decoration:none;
+    color:#bfe1f1; }
 
-
-
+#div_services_menu ul li a:hover {
+    -moz-transform:rotate(-5deg);
+    -moz-box-shadow:10px 10px 20px #37415d;
+    -webkit-transform:rotate(-5deg);
+    -webkit-box-shadow:10px 10px 20px #37415d;
+    transform:rotate(-5deg);
+    box-shadow:10px 10px 20px #37415d; }
+.img_service{
+    height: 120px;
+    width: 120px;
+    float:left; /* Выравнивание по левому краю */
+    margin: 5px 10px 5px 5px; /* Отступы вокруг картинки */
+}
