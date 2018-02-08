@@ -1,9 +1,8 @@
 body {
     color: #bdc2e7;
-    background: #252F48;
     font: 500 16px/18px 'Open Sans', sans-serif;
     margin-bottom: 7%;
-    background-image: url(/images/font.png);
+    background: #252F48 url(/images/font.png);
     height: 100%;
 }
 
@@ -83,7 +82,6 @@ footer ul {
     display: table-cell;
     padding: 0;
     margin: 0;
-    text-align: left;
 }
 
 #div_short_intro div {
@@ -241,6 +239,8 @@ position: absolute ;
     width: 15%;
 }
 .div_service_description{
+    vertical-align: middle;
+    text-align: justify;
     width: 85%;
 }
 .div_intro_unit img{
@@ -274,8 +274,26 @@ position: absolute ;
     transform:rotate(-5deg);
     box-shadow:10px 10px 20px #37415d; }
 .img_service{
-    height: 120px;
-    width: 120px;
-    float:left; /* Выравнивание по левому краю */
+    height: 200px;
+    width: 18%;
+    float:right; /* Выравнивание по левому краю */
     margin: 5px 10px 5px 5px; /* Отступы вокруг картинки */
+}
+dd{
+    line-height: 1.5;
+}
+#div_start_view{
+    width: 100%;
+    height: 100%;
+}
+#div_start_view div{
+    display: table-row;
+}
+#div_grow_img{
+    width: 100%;
+    height: 80px;
+}
+#div_grow_img img{
+    width: 95%;
+    height: 80px;
 }
